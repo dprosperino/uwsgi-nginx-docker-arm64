@@ -1,6 +1,4 @@
-FROM python:3.8-buster
-
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+FROM arm64v8/python:3.8-buster
 
 COPY install-nginx-debian.sh /
 
